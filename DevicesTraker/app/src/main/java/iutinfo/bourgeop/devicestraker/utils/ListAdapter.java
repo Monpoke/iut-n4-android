@@ -79,7 +79,7 @@ public class ListAdapter extends BaseAdapter {
 
                 //selectedItemView.findViewById("");
                 if(!model.setStudent(studentPosition, tabletPositon)){
-                    Toast.makeText(context.getApplicationContext(), "Il semblerait que cette utilisateur ai déjà emprunté une tablette !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(context.getApplicationContext(), "Il semblerait que cette utilisateur ait déjà emprunté une tablette !", Toast.LENGTH_LONG).show();
                     studentSpinner.setSelection(0);
                 }
             }
