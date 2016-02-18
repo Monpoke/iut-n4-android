@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prems</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Votre nom ?</string>
+    <string name="default_message">Bienvenue !</string>
+    <string name="reset">Reset</string>
+</resources>
